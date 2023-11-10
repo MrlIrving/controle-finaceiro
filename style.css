@@ -1,0 +1,123 @@
+/* RESET CSS */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* FIM RESET CSS */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #0d47a1;
+    padding: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    margin-right: 20px;
+}
+
+.boasVindas p {
+    margin: 0;
+}
+
+#area {
+    padding: 20px;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.resumo div {
+    flex: 1;
+    text-align: center;
+}
+
+.entradas, .saidas, .total {
+    font-weight: bold;
+}
+
+.novoItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.divDesc,
+.divValor,
+.divTipo {
+    flex: 1;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.botao button {
+    background-color: #1976D2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.divTabela table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.divTabela th, .divTabela td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #616161;
+}
+
+.divTabela th.columnValor, .divTabela th.columnTipo, .divTabela th.columnAcao {
+    text-align: center;
+}
+
+.divTabela tbody tr:hover {
+    background-color: #333;
+}
+
+.divTabela tbody td.columnAcao button {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
